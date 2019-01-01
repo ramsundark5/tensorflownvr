@@ -1,0 +1,19 @@
+{
+  "name": "tf-js",
+  "version": "1.0.0",
+  "main": "script.js",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^0.2.2",
+    "@tensorflow/tfjs": "^0.14.1",
+    "@tensorflow/tfjs-node": "^0.2.1",
+    "jpeg-js": "^0.3.4",
+    "node-fetch": "^2.3.0"
+  },
+  "scripts": {
+    "postinstall": "npm upgrade --pattern @tensorflow"
+  },
+  "devDependencies": {
+    "clang-format": "~1.2.2"
+  }
+}
